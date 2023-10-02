@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+      <mxfile host="codeviz.app" modified="2025-05-22T21:45:08.747Z" agent="CodeViz Exporter" version="14.6.5" type="device">
+        <diagram id="codeviz-diagram" name="System Diagram">
+          <mxGraphModel dx="1000" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+              <mxCell id="0"/>
+              <mxCell id="1" parent="0"/>
+              <mxCell id="1684" value="" style="html=1;whiteSpace=wrap;container=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;fillOpacity=20;strokeWidth=2;containerType=none;recursiveResize=0;movable=1;resizable=1;autosize=0;dropTarget=0" vertex="1" parent="1683">
+                <mxGeometry x="50" y="90" width="288.1578312295738" height="244.07891561478687" as="geometry"/>
+              </mxCell>
+              <mxCell id="1684_label" value="Reporting" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;labelBackgroundColor=white;spacing=5" vertex="1" parent="1683">
+                <mxGeometry x="58" y="98" width="212.1578312295738" height="24" as="geometry"/>
+              </mxCell>
+<mxCell id="1685" value="" style="html=1;whiteSpace=wrap;container=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;fillOpacity=20;strokeWidth=2;containerType=none;recursiveResize=0;movable=1;resizable=1;autosize=0;dropTarget=0" vertex="1" parent="1683">
+                <mxGeometry x="328.1578312295738" y="90" width="1278.9469873774426" height="244.07891561478687" as="geometry"/>
+              </mxCell>
+              <mxCell id="1685_label" value="Advanced FL Protocol Modules" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;labelBackgroundColor=white;spacing=5" vertex="1" parent="1683">
+                <mxGeometry x="336.1578312295738" y="98" width="1202.9469873774426" height="24" as="geometry"/>
+              </mxCell>
+<mxCell id="1686" value="" style="html=1;whiteSpace=wrap;container=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;fillOpacity=20;strokeWidth=2;containerType=none;recursiveResize=0;movable=1;resizable=1;autosize=0;dropTarget=0" vertex="1" parent="1683">
+                <mxGeometry x="1597.1048186070163" y="95" width="684.4734936887214" height="244.07891561478687" as="geometry"/>
+              </mxCell>
+              <mxCell id="1686_label" value="Federated Learning Process Components" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;labelBackgroundColor=white;spacing=5" vertex="1" parent="1683">
+                <mxGeometry x="1605.1048186070163" y="103" width="608.4734936887214" height="24" as="geometry"/>
+              </mxCell>
+<mxCell id="1687" value="" style="html=1;whiteSpace=wrap;container=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;fillOpacity=20;strokeWidth=2;containerType=none;recursiveResize=0;movable=1;resizable=1;autosize=0;dropTarget=0" vertex="1" parent="1683">
+                <mxGeometry x="2271.5783122957378" y="95" width="486.31566245914746" height="244.07891561478687" as="geometry"/>
+              </mxCell>
+              <mxCell id="1687_label" value="Application Core" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;labelBackgroundColor=white;spacing=5" vertex="1" parent="1683">
+                <mxGeometry x="2279.5783122957378" y="103" width="410.31566245914746" height="24" as="geometry"/>
+              </mxCell>
+<mxCell id="1683" value="" style="html=1;whiteSpace=wrap;container=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;fillOpacity=20;strokeWidth=2;containerType=none;recursiveResize=0;movable=1;resizable=1;autosize=0;dropTarget=0" vertex="1" parent="1">
+                <mxGeometry x="32" y="242" width="2767.893974754885" height="349.07891561478687" as="geometry"/>
+              </mxCell>
+              <mxCell id="1683_label" value="Robust Temporal Federated Learning System" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;labelBackgroundColor=white;spacing=5" vertex="1" parent="1">
+                <mxGeometry x="40" y="250" width="2691.893974754885" height="24" as="geometry"/>
+              </mxCell>
+              <mxCell id="1688" value="User/Analyst&lt;br&gt;External Actor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" vertex="1" parent="1">
+                    <mxGeometry x="1976.341565451377" y="12" width="168.1578312295738" height="84.0789156147869" as="geometry"/>
+                  </mxCell>
+<mxCell id="1689" value="Data Source&lt;br&gt;CSV Files" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" vertex="1" parent="1">
+                    <mxGeometry x="2174.4993966809507" y="12" width="168.1578312295738" height="84.0789156147869" as="geometry"/>
+                  </mxCell>
+<mxCell id="1690" value="Main Orchestrator&lt;br&gt;Python" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" vertex="1" parent="1687">
+                    <mxGeometry x="238.1578312295738" y="120" width="168.1578312295738" height="84.0789156147869" as="geometry"/>
+                  </mxCell>
+<mxCell id="1691" value="RTFL Engine (Integrator)&lt;br&gt;Python, Pandas, Scikit-learn" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" vertex="1" parent="1687">
+                    <mxGeometry x="40" y="120" width="168.1578312295738" height="84.0789156147869" as="geometry"/>
+                  </mxCell>
+<mxCell id="1692" value="FL Server Logic&lt;br&gt;Python, Scikit-learn" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" vertex="1" parent="1686">
+                    <mxGeometry x="238.1578312295738" y="120" width="168.1578312295738" height="84.0789156147869" as="geometry"/>
+                  </mxCell>
+<mxCell id="1693" value="FL Client Logic&lt;br&gt;Python, Scikit-learn" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" vertex="1" parent="1686">
+                    <mxGeometry x="436.3156624591476" y="120" width="168.1578312295738" height="84.0789156147869" as="geometry"/>
+                  </mxCell>
+<mxCell id="1694" value="Data Processing &amp;amp; Utilities&lt;br&gt;Python, Pandas, Scikit-learn" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" vertex="1" parent="1686">
+                    <mxGeometry x="40" y="120" width="168.1578312295738" height="84.0789156147869" as="geometry"/>
+                  </mxCell>
+<mxCell id="1695" value="Temporal Checkpoint Manifold&lt;br&gt;Python" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" vertex="1" parent="1685">
+                    <mxGeometry x="238.1578312295738" y="120" width="168.1578312295738" height="84.0789156147869" as="geometry"/>
+                  </mxCell>
+<mxCell id="1696" value="Differential State Synchronizer&lt;br&gt;Python" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" vertex="1" parent="1685">
+                    <mxGeometry x="634.4734936887214" y="120" width="168.1578312295738" height="84.0789156147869" as="geometry"/>
+                  </mxCell>
+<mxCell id="1697" value="Adaptive Role Reassignment Protocol&lt;br&gt;Python" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" vertex="1" parent="1685">
+                    <mxGeometry x="40" y="120" width="168.1578312295738" height="84.0789156147869" as="geometry"/>
+                  </mxCell>
+<mxCell id="1698" value="Zero-Knowledge Integrity Proofs&lt;br&gt;Python" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" vertex="1" parent="1685">
+                    <mxGeometry x="832.6313249182951" y="120" width="168.1578312295738" height="84.0789156147869" as="geometry"/>
+                  </mxCell>
+<mxCell id="1699" value="Entropy-Based Corruption Detection&lt;br&gt;Python" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" vertex="1" parent="1685">
+                    <mxGeometry x="1030.7891561478689" y="120" width="168.1578312295738" height="84.0789156147869" as="geometry"/>
+                  </mxCell>
+<mxCell id="1700" value="Early Stopping Mechanism&lt;br&gt;Python" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" vertex="1" parent="1685">
+                    <mxGeometry x="436.3156624591476" y="120" width="168.1578312295738" height="84.0789156147869" as="geometry"/>
+                  </mxCell>
+<mxCell id="1701" value="Charting Utilities&lt;br&gt;Python, Matplotlib" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" vertex="1" parent="1684">
+                    <mxGeometry x="40" y="120" width="168.1578312295738" height="84.0789156147869" as="geometry"/>
+                  </mxCell>
+              <mxCell id="edge-1422" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" edge="1" parent="1" source="1689" target="1694">
+                  <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge-1422_label" value="Provides data to" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="edge-1422">
+                  <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+                    <mxPoint as="offset"/>
+                  </mxGeometry>
+                </mxCell>
+<mxCell id="edge-1421" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" edge="1" parent="1" source="1688" target="1690">
+                  <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge-1421_label" value="Initiates run &amp; Views results" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="edge-1421">
+                  <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+                    <mxPoint as="offset"/>
+                  </mxGeometry>
+                </mxCell>
+            </root>
+          </mxGraphModel>
+        </diagram>
+      </mxfile>

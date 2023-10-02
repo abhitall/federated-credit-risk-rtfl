@@ -36,9 +36,6 @@ ENV/
 # Dataset files
 *.csv
 
-# Generated images
-*.png
-
 # OS
 .DS_Store
 .DS_Store?

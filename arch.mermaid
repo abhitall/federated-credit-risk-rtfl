@@ -1,0 +1,29 @@
+graph TD
+
+    1688["User/Analyst<br>External Actor"]
+    1689["Data Source<br>CSV Files"]
+    subgraph 1683["Robust Temporal Federated Learning System"]
+        subgraph 1684["Reporting"]
+            1701["Charting Utilities"]
+        end
+        subgraph 1685["Advanced FL Protocol Modules"]
+            1695["Temporal Checkpoint Manifold"]
+            1696["Differential State Synchronizer"]
+            1697["Adaptive Role Reassignment Protocol"]
+            1698["Zero-Knowledge Integrity Proofs"]
+            1699["Entropy-Based Corruption Detection"]
+            1700["Early Stopping Mechanism"]
+        end
+        subgraph 1686["Federated Learning Process Components"]
+            1692["FL Server Logic"]
+            1693["FL Client Logic"]
+            1694["Data Processing &amp; Utilities"]
+        end
+        subgraph 1687["Application Core"]
+            1690["Main Orchestrator"]
+            1691["RTFL Engine (Integrator)"]
+        end
+    end
+    %% Edges at this level (grouped by source)
+    1689["Data Source<br>CSV Files"] -->|Provides data to| 1694["Data Processing &amp; Utilities"]
+    1688["User/Analyst<br>External Actor"] -->|Initiates run & Views results| 1690["Main Orchestrator"]
