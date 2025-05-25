@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Talluri"
+    given-names: "Abhijit"
+    orcid: "https://orcid.org/0009-0000-1871-9492"
+title: "DP-RTFL: Differentially Private Resilient Temporal Federated Learning Framework"
+date-released: 2024-03-01 
+repository-code: "https://github.com/abhitall/federated-credit-risk-rtfl.git"
+license: MIT
